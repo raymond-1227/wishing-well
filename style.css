@@ -22,7 +22,7 @@ h1 {
 
 h1,
 h2 {
-  font-family: "Raleway";
+  font-family: "Gotham";
 }
 
 .bold {
@@ -84,7 +84,7 @@ input[type="text"]:focus {
   font-size: 16px;
   margin: 4px 2px;
   transition: 0.3s;
-  font-family: "Raleway";
+  font-family: "Gotham";
 }
 
 .btn:hover {
