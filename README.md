@@ -1,2 +1,3 @@
-# wishing-well1
-Basically you can wish for anything... Well, just temporary. 
+# Wishing Well
+
+Please [click here](https://raymond.wtf/my-projects/wishing-well) for more information.
