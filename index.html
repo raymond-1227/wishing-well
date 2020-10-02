@@ -1,0 +1,97 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wishing Well</title>
+    <meta name="description" content="The world's dumbest wishing well" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://file.coffee/u/Ss0xKSvIcM.jpeg"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/index.js" defer></script>
+  </head>
+  <body text="black">
+    <header>
+      <h1 class="title">
+        Pointless Wishing Well
+      </h1>
+    </header>
+
+    <hr />
+
+    <style>
+      body {
+        background-color: #f2f2f2;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .title {
+        color: black;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    </style>
+
+    <main class="content">
+      <p class="bold">The world's dumbest wishing well</p>
+
+      <p>
+        How to use it: <br />
+        1. Enter your dreams at the box below <br />
+        2. Click "Submit" and your dream will show up in the list below!
+      </p>
+
+      <i
+        >(Note: Your list of dreams will not be saved on the website, so they will
+        be cleared once you refresh the page.)</i
+      >
+
+      <form class="formContent">
+        <input
+          name="dream"
+          type="text"
+          maxlength="1000"
+          required
+          placeholder="dreams!"
+          aria-labelledby="submit-dream"
+        />
+        <button type="submit" id="submit-dream" class="btn">SUBMIT</button>
+      </form>
+
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+      <br />
+    </main>
+    <hr />
+    <footer class="content">
+      Powered by <a href="https://pages.github.com">GitHub Pages</a><br />
+      Badly remixed by <a href="https://raymond.wtf">Raymond Hsu</a>
+    </footer>
+  </body>
+</html>

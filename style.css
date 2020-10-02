@@ -1,0 +1,117 @@
+/* styles */
+/* called by your view template*/
+
+html {
+  font-size: 20px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: #373fff;
+}
+
+h1,
+h2 {
+  font-family: "Raleway";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.content {
+  max-width: 600px;
+  margin: auto;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  text-align: center;
+  width: 100%;
+  border-radius: 3px;
+}
+
+input {
+  font-size: 36px;
+  line-height: 1.5em;
+  border-left: 0;
+  border-right: 0;
+  box-sizing: border-box;
+  display: block;
+  height: 1.5em;
+  margin-top: 10px;
+  padding: 0;
+  text-align: center;
+  text-transform: none;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: transparent;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+input[type="text"]:focus {
+  border: none;
+  border-bottom: 3px solid #0f4c81;
+}
+
+.formContent {
+  font-family: "Raleway";
+}
+.btn {
+  background-color: #143d59;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  font-family: "Raleway";
+}
+
+.btn:hover {
+  background-color: #f4b41a;
+  color: black;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 25px;
+}
+
+a {
+  color: #0074d9;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #7fdbff;
+}
+
+a:visited {
+  color: #001f3f;
+}
