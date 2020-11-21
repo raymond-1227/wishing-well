@@ -5,7 +5,7 @@ The website was actually a template called "hello-express", but its original des
 
 ## Play the Game
 
-Please [click here](https://raymondlol.me/wishing-well) to start your journey!
+Please [click here](https://raymond-1227.github.io/wishing-well) to start your journey!
 
 ## Source Code
 
