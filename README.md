@@ -1,9 +1,5 @@
 # Wishing Well
 
-I wish I was a billionare... lol
-
----
-
 ## About
 The website was actually a template called "hello-express", but its original design sucked, so I added lines of codes to make the design quite better.
 
