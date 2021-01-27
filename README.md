@@ -7,10 +7,6 @@ The website was actually a template called "hello-express", but its original des
 
 Please [click here](https://raymond-1227.github.io/wishing-well) to start your journey!
 
-## Source Code
-
-Please [click here](https://github.com/raymond-1227/wishing-well) for the source code.
-
 ## Troubleshooting
   - The website doesn't load, it kept saying "Waking up..."!
     - The website is starting up, might take a few seconds.
