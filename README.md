@@ -1,7 +1,7 @@
 # Wishing Well
 
 ## About
-The website was actually a template called "hello-express", but its original design sucked, so I added lines of codes to make the design quite better.
+The website was actually a Glitch template called "hello-express", but its original design sucked, so I added lines of codes to make the design quite better.
 
 ## Play the Game
 
