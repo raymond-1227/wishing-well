@@ -8,6 +8,7 @@ html {
 }
 
 * {
+  outline: none;
   box-sizing: border-box;
 }
 
